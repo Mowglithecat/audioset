@@ -1,0 +1,15 @@
+.audioset-info {
+  margin-top: 6px;
+  padding: 6px 8px;
+  border-radius: var(--radius-s); /* Uses theme's default rounded corners */
+  background-color: var(--background-modifier-form-field);
+  color: var(--text-normal);
+  font-size: var(--font-ui-smaller); /* Matches smaller UI text */
+  line-height: 1.4;
+  white-space: pre-line; /* So line breaks work nicely */
+  border: 1px solid var(--background-modifier-border);
+}
+
+.audioset-info strong {
+  color: var(--text-accent); /* Highlight labels */
+}

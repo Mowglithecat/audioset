@@ -1,0 +1,17 @@
+{
+  "name": "obsidian-audioset",
+  "version": "1.0.0",
+  "description": "Play and control audio files from code blocks with custom parameters like speed, volume, and loop — ideal for practice or play-along.",
+  "type": "module",
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.2",
+    "obsidian": "latest",
+    "rollup": "^3.29.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.3.3"
+  }
+}

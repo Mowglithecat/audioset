@@ -1,0 +1,10 @@
+{
+  "id": "audioset",
+  "name": "AudioSet",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Flexible audio player for Obsidian code blocks — adjust speed, volume, start, end, and loop points. Ideal for musicians and playalong practice.",
+  "author": "Andrés Ibarburu",
+  "authorUrl": "https://github.com/Mowglithecat",
+  "isDesktopOnly": false
+}
