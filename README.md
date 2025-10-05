@@ -20,16 +20,15 @@ loop
 \`\`\`
 
 The plugin will render an audio player with your chosen settings.
+* The path to the file is relative to the vault, without escaping (like %20 for space).
 
 **Supported formats:** any file playable by your browser (MP3, WAV, M4A, OGG, etc.).  
-**Tip:** files stored outside the vault can be referenced with `file:///` paths — great for keeping your vault lightweight.
-
 ---
 
 ## ⚙️ Features
 - Adjustable **speed**, **volume**, **start**, **end**, and **loop**
 - Parses time as `h:mm:ss`, `m:ss`, or seconds
-- Works on **desktop and iOS**
+- Works on any platform
 - Respects your active Obsidian theme
 - Lightweight — uses native HTML5 `<audio>`
 
